@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #050505 url(../img/img01.jpg) repeat;
+	background: #FFFFFF url(../img/img05.jpg) repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #5B5B5B;
@@ -38,21 +38,14 @@ a {
 	color: #5E5E5E;
 }
 
-#wrapper {
-	background: #FFFFFF url(../img/img05.jpg) repeat;
-}
-
-.container {
+/* Header */
+header {
+	overflow: hidden;
 	width: 1000px;
 	margin: 0 auto;
 }
 
-/* Header */
-#header-wrapper {
-	overflow: hidden;
-}
-
-#header {
+nav {
 	width: 1000px;
 	height: 150px;
 	margin: 0 auto;
@@ -140,37 +133,36 @@ a {
 	color: #FFFFFF;
 }
 
-/* Page */
-#page {
+#container {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 30px 0;
 }
 
 /* Content */
-#content {
+main {
 	float: right;
 	width: 660px;
 }
 
-.post {
+section {
 	overflow: hidden;
 	margin-bottom: 40px;
 	border-bottom: 1px solid #E7EBED;
 }
 
-.post .title {
+section .title {
 	padding: 7px 0 0 0;
 	letter-spacing: -1px;
 }
 
-.post .title a {
+section .title a {
 	border: none;
 	text-decoration: none;
 	color: #222222;
 }
 
-.post .meta {
+section .meta {
 	margin-bottom: 30px;
 	padding: 10px 0 0 0;
 	text-align: left;
@@ -179,15 +171,15 @@ a {
 	font-weight: 300;
 }
 
-.post .meta .date {
+section .meta .date {
 	float: left;
 }
 
-.post .meta .posted {
+section .meta .posted {
 	float: right;
 }
 
-.post .entry {
+section article {
 	padding: 0 0 40px 0;
 	text-align: justify;
 }
@@ -221,37 +213,37 @@ a {
 }
 
 /* Sidebar */
-#sidebar {
+aside {
 	float: left;
 	width: 270px;
 	margin: 0;
 	padding: 30px 0 0 0;
 }
 
-#sidebar ul {
+aside ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#sidebar li {
+aside li {
 	margin: 0;
 	padding: 0;
 }
 
-#sidebar li ul {
+aside li ul {
 	margin: 0 0;
 	padding-bottom: 30px;
 }
 
-#sidebar li li {
+aside li li {
 	line-height: 40px;
 	border-bottom: 1px solid #E7EBED;
 	margin: 0 0;
 	border-left: none;
 }
 
-#sidebar li li span {
+aside li li span {
 	display: block;
 	margin-top: -20px;
 	padding: 0;
@@ -259,12 +251,12 @@ a {
 	font-style: italic;
 }
 
-#sidebar li li a {
+aside li li a {
 	padding: 0 0 0 20px;
 	background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
-#sidebar h2 {
+aside h2 {
 	height: 38px;
 	padding: 0 0 30px 0;
 	letter-spacing: -.5px;
@@ -272,29 +264,31 @@ a {
 	color: #222222;
 }
 
-#sidebar p {
+aside p {
 	margin: 0 0;
 	padding: 0 30px 20px 30px;
 	text-align: justify;
 }
 
-#sidebar a {
+aside a {
 	border: none;
 }
 
-#sidebar a:hover {
+aside a:hover {
 	text-decoration: underline;
 }
 
 /* Footer */
-#footer {
+footer {
+	background: #050505 url(../img/img01.jpg) repeat;
+	clear: both;
 	height: 140px;
 	margin: 0 auto;
 	padding: 50px 0 15px 0;
 	font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
 	margin: 0;
 	padding-top: 10px;
 	letter-spacing: 1px;
@@ -305,7 +299,7 @@ a {
 	color: #5E5E5E;
 }
 
-#footer a {
+footer a {
 	color: #5E5E5E;
 }
 
