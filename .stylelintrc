@@ -31,7 +31,7 @@
     "media-query-list-comma-space-after": "always-single-line",
     "media-query-list-comma-space-before": "never",
     "no-eol-whitespace": true,
-    "number-leading-zero": "always",
+    "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "length-zero-no-unit": true,
     "rule-empty-line-before": ["always", { "except": ["after-single-line-comment"] , "ignore": ["inside-block"] }],
