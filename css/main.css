@@ -71,13 +71,13 @@ nav {
 
 #logo h1 {
 	line-height: 180%;
-	letter-spacing: -.125em;
+	letter-spacing: -.03125em;
 	font-size: 3.8em;
 }
 
 #logo h1 a {
 	color: #1F1F1F;
-	text-shadow: .0625em .0625em 0 rgba(0, 0, 0, .2);
+	text-shadow: .03125em .0625em 0 rgba(0, 0, 0, .2);
 }
 
 #logo p {
@@ -126,7 +126,7 @@ nav {
 	text-shadow: .0625em .0625em 0 rgba(0, 0, 0, .2);
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
+	font-size: 1.25em;
 	font-weight: 300;
 	color: #1F1F1F;
 	border: none;
@@ -156,7 +156,7 @@ section {
 
 section .title {
 	padding: .4375em 0 0 0;
-	letter-spacing: -.0625em;
+	letter-spacing: -.03125em;
 }
 
 section .title a {
@@ -193,10 +193,9 @@ section article {
 }
 
 .more {
-	display: block;
-	float: left;
-	width: 5.5em;
-	padding: .3125em .3125em;
+	display: inline-block;
+	width: 15%;
+	padding: .3125em 0 .3125em 0;
 	margin-right: .625em;
 	background: #222222;
 	color: #FFFFFF;
@@ -205,10 +204,9 @@ section article {
 }
 
 .comments {
-	display: block;
-	float: left;
-	width: 5.5em;
-	padding: .3125em .3125em;
+	display: inline-block;
+	width: 15%;
+	padding: .3125em 0 .3125em 0;
 	background: #222222;
 	color: #FFFFFF;
 	text-align: center;
