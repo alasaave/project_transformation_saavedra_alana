@@ -66,7 +66,7 @@ nav {
 #logo {
 	margin: 0 auto;
 	width: 100%;
-	text-align:center;
+	text-align: center;
 	padding: 0;
 }
 
@@ -77,7 +77,7 @@ nav {
 }
 
 #logo h1 a {
-	padding:2%;
+	padding: 2%;
 	color: white;
 	text-shadow: .03125em .0625em 0 rgba(0, 0, 0, .2);
 }
@@ -210,8 +210,8 @@ section article {
 
 /* Sidebar */
 aside {
-	width: 100%;
-	margin: 0;
+	width: 80%;
+	margin: 0 auto;
 	padding: 1.875em 0 0 0;
 }
 
@@ -229,6 +229,7 @@ aside li {
 aside li ul {
 	margin: 0 0;
 	padding-bottom: 1.875em;
+	background-color: #E6E6E6;
 }
 
 aside li li {
@@ -238,25 +239,18 @@ aside li li {
 	border-left: none;
 }
 
-aside li li span {
-	display: block;
-	margin-top: -1.25em;
-	padding: 0;
-	font-size: .6875em;
-	font-style: italic;
-}
-
 aside li li a {
 	padding: 0 0 0 1.25em;
 	background: url(../img/img04.jpg) no-repeat left 50%;
+	font-size: 1.125em;
 }
 
 aside h2 {
-	padding: 0 0 1.875em 0;
+	padding: 1em 0 1em 0;
 	letter-spacing: -.03125em;
-	font-size: 1.8em;
+	font-size: 2.125em;
 	color: #222222;
-	text-align:center;
+	text-align: center;
 }
 
 aside p {
@@ -332,7 +326,11 @@ footer a {
 	.comments, .more {
 		width: 25%;
 	}
+	aside li li a {
+		font-size: 1em;
+	}
 }
+
 @media (min-width: 1000px) {
 	main {
 		width: calc(100% / 3 * 2);
@@ -344,6 +342,11 @@ footer a {
 	}
 	aside h2 {
 		text-align: left;
+		padding: 0 0 1.875em 0;
+		font-size: 1.875em;
+	}
+	aside li ul {
+		background-color: transparent;
 	}
 	.comments, .more {
 		width: 15%;
