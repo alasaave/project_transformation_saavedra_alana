@@ -91,13 +91,14 @@ nav {
 #logo p a {
 	color: #8E8E8E;
 }
+*/
 
 #logo a {
 	border: none;
 	background: none;
 	text-decoration: none;
 	color: #000000;
-} */
+}
 
 /* Menu */
 #menu {
@@ -328,5 +329,15 @@ footer a {
 		display: inline-block;
 		font-size: 1.25em;
 		padding: 0 1em 0 1em;
+	}
+}
+@media (min-width: 1100px) {
+	main {
+		width: calc(100% / 3 * 2);
+		float: right;
+	}
+	aside {
+		width: calc(100% / 3 - 1.5em);
+		float: left;
 	}
 }
