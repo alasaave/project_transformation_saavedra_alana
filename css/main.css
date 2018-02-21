@@ -189,7 +189,7 @@ section article {
 
 .more {
 	display: inline-block;
-	width: 15%;
+	width: 40%;
 	padding: .3125em 0 .3125em 0;
 	margin-right: .625em;
 	background: #222222;
@@ -200,7 +200,7 @@ section article {
 
 .comments {
 	display: inline-block;
-	width: 15%;
+	width: 40%;
 	padding: .3125em 0 .3125em 0;
 	background: #222222;
 	color: #FFFFFF;
@@ -256,6 +256,7 @@ aside h2 {
 	letter-spacing: -.03125em;
 	font-size: 1.8em;
 	color: #222222;
+	text-align:center;
 }
 
 aside p {
@@ -313,7 +314,7 @@ footer a {
 		font-size: 3em;
 	}
 	#logo h1 a {
-		padding:5%;
+		padding: 5%;
 	}
 	#menu ul {
 		float: right;
@@ -328,8 +329,11 @@ footer a {
 		font-size: 1.25em;
 		padding: 0 1em 0 1em;
 	}
+	.comments, .more {
+		width: 25%;
+	}
 }
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
 	main {
 		width: calc(100% / 3 * 2);
 		float: right;
@@ -337,5 +341,11 @@ footer a {
 	aside {
 		width: calc(100% / 3 - 1.5em);
 		float: left;
+	}
+	aside h2 {
+		text-align: left;
+	}
+	.comments, .more {
+		width: 15%;
 	}
 }
