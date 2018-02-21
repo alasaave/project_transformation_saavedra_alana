@@ -80,7 +80,7 @@ nav {
 	text-shadow: .03125em .0625em 0 rgba(0, 0, 0, .2);
 }
 
-#logo p {
+/* #logo p {
 	margin: 0;
 	letter-spacing: -.0625em;
 	font: normal 1.125em Georgia, "Times New Roman", Times, serif;
@@ -97,7 +97,7 @@ nav {
 	background: none;
 	text-decoration: none;
 	color: #000000;
-}
+} */
 
 /* Menu */
 #menu {
@@ -306,4 +306,27 @@ footer a {
 	width: 100%;
 	height: auto;
 	background: url(../img/img03.png) no-repeat left bottom;
+}
+
+/* Media Queries */
+@media (min-width: 750px) {
+	#logo {
+		width: 20%;
+		float: left;
+	}
+	#logo h1 {
+		font-size: 3em;
+	}
+	#menu ul {
+		float: right;
+	}
+	#menu li {
+		background-color: whitesmoke;
+		display: inline-block;
+	}
+	#menu a {
+		display: inline-block;
+		font-size: 1.25em;
+		padding: 0 1em 0 1em;
+	}
 }
