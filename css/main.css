@@ -29,12 +29,8 @@ h1 {
 	font-size: 2em;
 }
 
-h2 {
+h2, h3 {
 	font-size: 2.8em;
-}
-
-h3 {
-	font-size: 1.6em;
 }
 
 p, ul, ol {
@@ -172,7 +168,7 @@ section .meta .posted {
 
 }
 
-section article {
+section article p {
 	padding: 0 0 2.5em 0;
 	text-align: justify;
 }
@@ -293,6 +289,18 @@ footer a {
 	background: url(../img/img03.png) no-repeat left bottom;
 }
 
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap; /* 1 */
+}
+
 /* Media Queries */
 @media (min-width: 750px) {
 	#logo {
@@ -321,9 +329,7 @@ footer a {
 	.comments, .more {
 		width: 25%;
 	}
-	aside section li a {
-		font-size: 1em;
-	}
+
 }
 
 @media (min-width: 1000px) {
@@ -342,6 +348,9 @@ footer a {
 	}
 	aside section ul {
 		background-color: transparent;
+	}
+	aside section li a {
+		font-size: 1em;
 	}
 	.comments, .more {
 		width: 15%;
