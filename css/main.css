@@ -221,26 +221,26 @@ aside li {
 	padding: 0;
 }
 
-aside li ul {
+aside section ul {
 	margin: 0 0;
 	padding-bottom: 1.875em;
 	background-color: #E6E6E6;
 }
 
-aside li li {
+aside section li {
 	line-height: 2.5em;
 	border-bottom: .0625em solid #E7EBED;
 	margin: 0 0;
 	border-left: none;
 }
 
-aside li li a {
+aside section li a {
 	padding: 0 0 0 1.25em;
 	background: url(../img/img04.jpg) no-repeat left 50%;
 	font-size: 1.125em;
 }
 
-aside h2 {
+aside h3 {
 	padding: 1em 0 1em 0;
 	letter-spacing: -.03125em;
 	font-size: 2.125em;
@@ -321,7 +321,7 @@ footer a {
 	.comments, .more {
 		width: 25%;
 	}
-	aside li li a {
+	aside section li a {
 		font-size: 1em;
 	}
 }
@@ -335,12 +335,12 @@ footer a {
 		width: calc(100% / 3 - 1.5em);
 		float: left;
 	}
-	aside h2 {
+	aside h3 {
 		text-align: left;
 		padding: 0 0 1.875em 0;
 		font-size: 1.875em;
 	}
-	aside li ul {
+	aside section ul {
 		background-color: transparent;
 	}
 	.comments, .more {
