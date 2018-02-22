@@ -120,6 +120,11 @@ nav a:hover, #logo a {
 	color: #FFFFFF;
 }
 
+.current_page_item a {
+	background: #E7EBED;
+	text-decoration: none;
+}
+
 #container {
 	width: 80%;
 	margin: 0 auto;
@@ -287,6 +292,7 @@ footer a {
 	width: 100%;
 	height: auto;
 	background: url(../img/img03.png) no-repeat left bottom;
+	padding-bottom: 6%;
 }
 
 .visuallyhidden {
@@ -326,6 +332,9 @@ footer a {
 		font-size: 1.25em;
 		padding: 0 1em 0 1em;
 	}
+	#banner {
+		padding-bottom: 4%;
+	}
 	.comments, .more {
 		width: 25%;
 	}
@@ -354,5 +363,11 @@ footer a {
 	}
 	.comments, .more {
 		width: 15%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#banner {
+		padding-bottom: 3%;
 	}
 }
